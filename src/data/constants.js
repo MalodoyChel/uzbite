@@ -4,9 +4,9 @@ export const COMPANY = {
   tagline: "Digital Solutions for Modern Business",
   description:
     "We transform your ideas into innovative digital products. From websites to mobile apps and enterprise software, we deliver excellence with cutting-edge technology.",
-  phone: "+91 (123) 456-7890",
-  email: "info@cozweb.com",
-  address: "Noida, Uttar Pradesh, India",
+  phone: "+998 (90) 123-45-67",
+  email: "gafarovsardorn1@gmail.com",
+  address: "Kichik Xalqa Yo'li 17, Tashkent, Uzbekistan",
 };
 
 export const HERO = {
@@ -89,17 +89,17 @@ export const BLOGS = [
     title: "Building Scalable Web Applications: Best Practices",
     content:
       "Learn the essential practices for building web applications that can grow with your business. From architecture to deployment, we cover everything.",
-    date: "April 24, 2024",
-    author: "Sarah Johnson",
+    date: "April 24, 2026",
+    author: "Gafarov Sardor and Muxtorox Asadullo",
     category: "Web Development",
   },
   {
     id: 2,
-    title: "The Future of Mobile App Development in 2024",
+    title: "The Future of Mobile App Development in 2026",
     content:
       "Discover the latest trends in mobile development, including AI integration, cross-platform frameworks, and performance optimization techniques.",
-    date: "May 10, 2024",
-    author: "Mike Chen",
+    date: "May 10, 2026",
+    author: "Ismanov Sardor",
     category: "Mobile Apps",
   },
   {
@@ -107,8 +107,8 @@ export const BLOGS = [
     title: "Cloud Security: Protecting Your Digital Assets",
     content:
       "A comprehensive guide to securing your cloud infrastructure. Learn about encryption, access control, and best practices for data protection.",
-    date: "May 18, 2024",
-    author: "Emily Rodriguez",
+    date: "May 18, 2026",
+    author: "Maxim and Fernando",
     category: "Cloud Services",
   },
 ];
@@ -139,18 +139,22 @@ export const BANNER_SECTIONS = [
 ];
 
 export const NAV_LINKS = [
-  { label: "Home", href: "/#home" },
-  { label: "Services", href: "/#services" },
-  { label: "About", href: "/#about" },
-  { label: "Contact", href: "/#contact" },
+  { label: "Home", href: "#home" },
+  { label: "Services", href: "#services" },
+  { label: "About", href: "#about" },
+  { label: "Contact", href: "#contact" },
 ];
 
 export const FOOTER_LINKS = {
   important: [
-    { label: "Home", href: "/#home" },
-    { label: "About", href: "/#about" },
-    { label: "Services", href: "/#services" },
-    { label: "Contact", href: "/#contact" },
+    { label: "Home", href: "#home" },
+    { label: "About", href: "#about" },
+    { label: "Services", href: "#services" },
+    { label: "Contact", href: "#contact" },
+  ],
+  creators: [
+    { label: "@MalodoyChel", href: "https://t.me/MalodoyChel" },
+    { label: "@asadullo_muxtor", href: "https://t.me/asadullo_muxtor" },
   ],
   resources: [
     { label: "Privacy Policy", href: "#privacy" },
@@ -158,6 +162,7 @@ export const FOOTER_LINKS = {
     { label: "Blog", href: "#blog" },
   ],
   social: [
+    { icon: "FaTelegram", url: "https://telegram.org" },
     { icon: "FaInstagram", url: "https://instagram.com" },
     { icon: "FaFacebook", url: "https://facebook.com" },
     { icon: "FaLinkedin", url: "https://linkedin.com" },

@@ -61,7 +61,7 @@ const Navbar = () => {
     >
       <nav className="container  flex h-[70px] items-center justify-between py-2 ">
         <div className="text-2xl text-white md:text-3xl ">
-          <a href="/#home" className="">
+          <a href="#home" className="">
             COZ
             <span className="inline-block font-bold text-primary dark:text-black">
               WEB
@@ -71,7 +71,7 @@ const Navbar = () => {
         <div className="hidden md:block">
           <ul className="flex items-center gap-10">
             <li className="cursor pointer group relative">
-              <a href="/#home" className="flex h-[72px] items-center gap-[2px]">
+              <a href="#home" className="flex h-[72px] items-center gap-[2px]">
                 Home{" "}
                 <span>
                   <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
@@ -86,7 +86,7 @@ const Navbar = () => {
               </div>
             </li>
             <li className="cursor pointer group">
-              <a href="/#home" className="flex h-[72px] items-center gap-[2px]">
+              <a href="#home" className="flex h-[72px] items-center gap-[2px]">
                 Services{" "}
                 <span>
                   <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
@@ -146,7 +146,7 @@ const Navbar = () => {
               </div>
             </li>
             <li className="cursor pointer">
-              <a href="/#contact">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
             <div className="flex items-center gap-4">
               <li>

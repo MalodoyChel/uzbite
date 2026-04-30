@@ -136,8 +136,8 @@ export const BANNER_SECTIONS = [
 ```javascript
 export const FOOTER_LINKS = {
   important: [
-    { label: "Home", href: "/#home" },
-    { label: "Services", href: "/#services" },
+    { label: "Home", href: "#home" },
+    { label: "Services", href: "#services" },
     // Add more...
   ],
   resources: [
@@ -194,7 +194,7 @@ All links use anchor-based navigation:
 - `/#contact` → Contact/Footer section
 
 To add a new navigation anchor:
-1. Add to constants: `{ label: "Page", href: "/#page" }`
+1. Add to constants: `{ label: "Page", href: "#page" }`
 2. Add corresponding section in component
 3. Component must have id or data-aos to scroll to
 

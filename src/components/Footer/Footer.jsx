@@ -5,20 +5,21 @@ import {
   FaLinkedin,
   FaLocationArrow,
   FaMobileAlt,
+  FaTelegram,
 } from "react-icons/fa";
 import { COMPANY, FOOTER_LINKS } from "../../data/constants";
 
 const Footer = () => {
-  const [email, setEmail] = useState("");
+  // const [email, setEmail] = useState("");
 
-  const handleSubscribe = (e) => {
-    e.preventDefault();
-    // Handle newsletter subscription
-    if (email) {
-      alert(`Thank you for subscribing with ${email}!`);
-      setEmail("");
-    }
-  };
+  // const handleSubscribe = (e) => {
+  //   e.preventDefault();
+  //   // Handle newsletter subscription
+  //   if (email) {
+  //     alert(`Thank you for subscribing with ${email}!`);
+  //     setEmail("");
+  //   }
+  // };
 
   return (
     <div className="rounded-t-3xl bg-gradient-to-r from-violet-950 to-violet-900">
@@ -26,7 +27,7 @@ const Footer = () => {
         <div className=" grid py-5 md:grid-cols-3">
           <div className=" px-4 py-8 ">
             <h1 className="mb-3 text-justify text-xl font-bold sm:text-left sm:text-3xl">
-              <a href="/#home" className="">
+              <a href="#home" className="">
                 COZ
                 <span className="inline-block font-bold text-primary">WEB</span>
               </a>
@@ -81,10 +82,19 @@ const Footer = () => {
             <div className="">
               <div className="px-4 py-8 ">
                 <h1 className="mb-3 text-justify text-xl font-bold sm:text-left sm:text-xl">
-                  Newsletter
+                  Creators
                 </h1>
+                <ul className="flex flex-col gap-3">
+                  {FOOTER_LINKS.creators.map((link, index) => (
+                    <li key={index} className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
+                      <a href={link.href} className="hover:text-primary">
+                        {link.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
                 <div className="flex flex-col gap-3">
-                  <h1>Subscribe to our newsletter</h1>
+                  {/* <h1>Subscribe to our newsletter</h1>
                   <form onSubmit={handleSubscribe}>
                     <input
                       className="w-full rounded-full px-3 py-1 text-black focus:border-sky-500 focus:outline-none focus:ring-2 focus:ring-sky-500"
@@ -100,8 +110,11 @@ const Footer = () => {
                     >
                       Subscribe
                     </button>
-                  </form>
+                  </form> */}
                   <div className="mt-6 flex items-center gap-3">
+                    <a href="https://telegram.org" target="_blank" rel="noopener noreferrer" className="duration-200 hover:scale-105">
+                      <FaTelegram className="text-3xl" />
+                    </a>
                     <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="duration-200 hover:scale-105">
                       <FaInstagram className="text-3xl" />
                     </a>
@@ -119,7 +132,7 @@ const Footer = () => {
         </div>
         <div>
           <div className="border-t-2 border-gray-300/50 py-6 text-center">
-            @copyright 2024 {COMPANY.name} || All Rights Reserved
+            @copyright 2026 {COMPANY.name} || All Rights Reserved
           </div>
         </div>
       </section>

@@ -20,17 +20,17 @@ const ResponsiveMenu = ({ showMenu }) => {
         <nav className="mt-12">
           <ul className="space-y-4 text-xl">
             <li>
-              <a href="/#home" className="mb-5 inline-block hover:text-primary transition-colors">
+              <a href="#home" className="mb-5 inline-block hover:text-primary transition-colors">
                 Home
               </a>
             </li>
             <li>
-              <a href="/#services" className="mb-5 inline-block hover:text-primary transition-colors">
+              <a href="#services" className="mb-5 inline-block hover:text-primary transition-colors">
                 Services
               </a>
             </li>
             <li>
-              <a href="/#about" className="mb-5 inline-block hover:text-primary transition-colors">
+              <a href="#about" className="mb-5 inline-block hover:text-primary transition-colors">
                 About
               </a>
             </li>
@@ -43,7 +43,7 @@ const ResponsiveMenu = ({ showMenu }) => {
         </nav>
       </div>
       <div className="footer">
-        <h1>© 2024 {COMPANY.name} All Rights Reserved</h1>
+        <h1>© 2026 {COMPANY.name} All Rights Reserved</h1>
       </div>
     </div>
   );

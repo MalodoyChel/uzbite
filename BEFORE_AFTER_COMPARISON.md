@@ -104,7 +104,7 @@ Buttons: "Get Started" | "Learn More"  (unique CTAs)
 
 **BEFORE:**
 ```
-Home → href="/#home" (works)
+Home → href="#home" (works)
 Services Dropdown
   └─ "Best Selling" (Lorem ipsum, no links)
     ├─ Web development (no href)
@@ -114,13 +114,13 @@ Services Dropdown
     ├─ Mobile App (no href)
     └─ App Development (no href, DUPLICATE)
 
-About us → href="/#contact" (wrong URL!)
+About us → href="#contact" (wrong URL!)
 Phone → Only icon, no link
 ```
 
 **AFTER:**
 ```
-Home → href="/#home" (works)
+Home → href="#home" (works)
 Services Dropdown
   └─ "Our Core Services" with real description
     ├─ Web development → href="#web-dev"
@@ -130,7 +130,7 @@ Services Dropdown
     ├─ UI/UX Design → href="#ui-ux"
     └─ Digital Marketing → href="#marketing"
 
-About us → href="/#about" (correct URL)
+About us → href="#about" (correct URL)
 Phone icon → href={`tel:${COMPANY.phone}`} (clickable)
 Phone text → href={`tel:${COMPANY.phone}`} (clickable)
 ```
@@ -178,10 +178,10 @@ Company Info:
 
 Links:
   Important Links:
-    ├─ Home (href="/#home")
-    ├─ About (href="/#about")
-    ├─ Services (href="/#services")
-    └─ Contact (href="/#contact")
+    ├─ Home (href="#home")
+    ├─ About (href="#about")
+    ├─ Services (href="#services")
+    └─ Contact (href="#contact")
   
   Resources:
     ├─ Privacy Policy (href="#privacy")

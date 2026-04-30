@@ -36,7 +36,7 @@ const Navbar2 = () => {
       >
         <nav className="container  flex h-[70px] items-center justify-between py-2 ">
           <div className="text-2xl text-white md:text-3xl ">
-            <a href="/#home" className="">
+            <a href="#home" className="">
               COZ
               <span className="inline-block font-bold text-primary">WEB</span>
             </a>
@@ -46,7 +46,7 @@ const Navbar2 = () => {
             <ul className="flex items-center gap-10">
               <li className="group relative cursor-pointer">
                 <a
-                  href="/#home"
+                  href="#home"
                   className="flex h-[72px] items-center gap-[2px]"
                 >
                   Home{" "}
@@ -57,10 +57,10 @@ const Navbar2 = () => {
                 <div className="absolute -left-9 z-[9999] hidden w-[150px] rounded-md bg-white p-2 text-black group-hover:block  ">
                   <ul className="space-y-3">
                     <li className="p-2 hover:bg-violet-200 cursor-pointer">
-                      <a href="/#services">Services</a>
+                      <a href="#services">Services</a>
                     </li>
                     <li className="p-2 hover:bg-violet-200 cursor-pointer">
-                      <a href="/#about">About us</a>
+                      <a href="#about">About us</a>
                     </li>
                     <li className="p-2 hover:bg-violet-200 cursor-pointer">
                       <a href="#privacy">Privacy policy</a>
@@ -70,7 +70,7 @@ const Navbar2 = () => {
               </li>
               <li className="cursor pointer group">
                 <a
-                  href="/#services"
+                  href="#services"
                   className="flex h-[72px] items-center gap-[2px]"
                 >
                   Services{" "}
@@ -132,7 +132,7 @@ const Navbar2 = () => {
                 </div>
               </li>
               <li className="cursor pointer">
-                <a href="/#about">About us</a>
+                <a href="#about">About us</a>
               </li>
               {/* Phone number section */}
               <div className="flex items-center gap-4">

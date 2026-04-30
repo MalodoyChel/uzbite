@@ -149,7 +149,7 @@ Find `BANNER_SECTIONS` array:
 Edit `FOOTER_LINKS`:
 ```javascript
 important: [
-  { label: "Home", href: "/#home" },
+  { label: "Home", href: "#home" },
   // Add/modify links here
 ],
 ```
