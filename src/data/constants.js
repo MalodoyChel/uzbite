@@ -1,6 +1,6 @@
 // Company and content constants
 export const COMPANY = {
-  name: "COZWEB",
+  name: "UzBite",
   tagline: "Digital Solutions for Modern Business",
   description:
     "We transform your ideas into innovative digital products. From websites to mobile apps and enterprise software, we deliver excellence with cutting-edge technology.",

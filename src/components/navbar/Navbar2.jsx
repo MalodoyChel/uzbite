@@ -37,8 +37,8 @@ const Navbar2 = () => {
         <nav className="container  flex h-[70px] items-center justify-between py-2 ">
           <div className="text-2xl text-white md:text-3xl ">
             <a href="#home" className="">
-              COZ
-              <span className="inline-block font-bold text-primary">WEB</span>
+              Uz
+              <span className="inline-block font-bold text-primary">Bite</span>
             </a>
           </div>
           {/* Desktop Menu */}
