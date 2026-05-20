@@ -31,12 +31,12 @@ const ResponsiveMenu = ({ showMenu }) => {
             </li>
             <li>
               <a href="#about" className="mb-5 inline-block hover:text-primary transition-colors">
-                About
+                About us
               </a>
             </li>
             <li>
-              <a href={`tel:${COMPANY.phone}`} className="mb-5 inline-block hover:text-primary transition-colors">
-                Contact
+              <a href={`tel:${COMPANY.phone}`} className="mb-5 inline-block hover:text-primary transition-colors underline">
+                Call us on
               </a>
             </li>
           </ul>

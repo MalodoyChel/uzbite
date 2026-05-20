@@ -1,5 +1,5 @@
 import React from "react";
-import BannerImg from "../../assets/marketing-speaker.png";
+import BannerImg from "../../assets/blog2.jpg";
 
 const Banner = () => {
   return (
@@ -11,11 +11,18 @@ const Banner = () => {
             <p className="">
               Amplify your brand's online presence with our comprehensive digital marketing strategies. From SEO and content marketing to social media campaigns, we help your business reach the right audience and drive meaningful conversions.
             </p>
-            <button className="rounded-md bg-white px-4 py-2 text-sm  text-black transition-colors duration-300 hover:bg-white/90">
+            {/* <button className="rounded-md bg-white px-4 py-2 text-sm  text-black transition-colors duration-300 hover:bg-white/90">
               Start Your Campaign
-            </button>
+            </button> */}
           </div>
-          <div className="order-1">
+          <div
+            data-aos="fade-left"
+            data-aos-duration="400"
+            data-aos-once="true"
+            className="order-1">
+            <img src={BannerImg} alt="No image" className="hover:drop-shadow-md" />
+          </div>
+          {/* <div className="order-1">
             <iframe
               className="aspect-video w-full"
               src="https://www.youtube.com/embed/gRWMen27Uio?si=VtHMh9xCxQ6ccFh8"
@@ -24,7 +31,7 @@ const Banner = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
             ></iframe>
-          </div>
+          </div> */}
         </div>
       </section>
     </main>

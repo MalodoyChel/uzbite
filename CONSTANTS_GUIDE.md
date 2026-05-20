@@ -18,9 +18,9 @@ import { COMPANY, HERO, SERVICES_LIST, BLOGS, etc } from "../../data/constants";
   name: "COZWEB",
   tagline: "Digital Solutions for Modern Business",
   description: "...",
-  phone: "+91 (123) 456-7890",
-  email: "info@cozweb.com",
-  address: "Noida, Uttar Pradesh, India"
+  phone: "++998 (50) 187-07-69",
+  email: "sargus@gmail.com",
+  address: "Kichik Xalqa Yo'li 17, Tashkent, Uzbekistan"
 }
 ```
 **Used in**: Navbar, Footer, ResponsiveMenu

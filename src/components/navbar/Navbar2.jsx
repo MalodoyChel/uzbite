@@ -36,15 +36,12 @@ const Navbar2 = () => {
       >
         <nav className="container  flex h-[70px] items-center justify-between py-2 ">
           <div className="text-2xl text-white md:text-3xl ">
-            <a href="#home" className="">
-              Uz
-              <span className="inline-block font-bold text-primary">Bite</span>
-            </a>
+            <a href="#home" className="">Sargus <span className="inline-block font-bold text-primary"> Company</span></a>
           </div>
           {/* Desktop Menu */}
           <div className="hidden md:block">
             <ul className="flex items-center gap-10">
-              <li className="group relative cursor-pointer">
+              {/* <li className="group relative cursor-pointer">
                 <a
                   href="#home"
                   className="flex h-[72px] items-center gap-[2px]"
@@ -133,7 +130,7 @@ const Navbar2 = () => {
               </li>
               <li className="cursor pointer">
                 <a href="#about">About us</a>
-              </li>
+              </li> */}
               {/* Phone number section */}
               <div className="flex items-center gap-4">
                 <li>

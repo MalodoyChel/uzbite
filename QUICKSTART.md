@@ -49,9 +49,9 @@ src/
 ```javascript
 export const COMPANY = {
   name: "COZWEB",           // ← Change company name
-  phone: "+91 (123) 456-7890", // ← Update phone
-  email: "info@cozweb.com",    // ← Update email
-  address: "Noida, Uttar Pradesh, India", // ← Update address
+  phone: "++998 (50) 187-07-69", // ← Update phone
+  email: "sargus@gmail.com",    // ← Update email
+  address: "Kichik Xalqa Yo'li 17, Tashkent, Uzbekistan", // ← Update address
   description: "..." // ← Update description
 };
 ```

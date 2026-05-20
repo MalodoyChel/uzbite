@@ -142,12 +142,10 @@ Phone text → href={`tel:${COMPANY.phone}`} (clickable)
 **BEFORE:**
 ```
 Company Info:
-  Name: COZWEB
-  Description: "Lorem ipsum dolor sit amet consectetur. 
-                Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Possimus, voluptate."
-  Phone: +91 123456789 (hardcoded)
-  Address: Noida, Uttar Pradesh (hardcoded)
+  Name: Sargus Company
+  Description:
+  Phone: +998 (50) 187-07-69
+  Address: Kichik Xalqa Yo'li 17, Tashkent, Uzbekistan
 
 Links:
   Home (no href)
@@ -168,7 +166,7 @@ Copyright: "@copyright 2024 Travery || Dilshad" (wrong)
 **AFTER:**
 ```
 Company Info:
-  Name: COZWEB
+  Name: Sargus Company
   Description: "We transform your ideas into innovative 
                 digital products. From websites to mobile 
                 apps and enterprise software, we deliver 
@@ -235,8 +233,8 @@ Button: "Start Your Campaign"
 ```javascript
 // Example: Scattered across components
 const hero_title = "We Build Apps That Get Trending...";
-const phone = "+91 123456789";
-const author = "Dilshad Ahmed";
+const phone = "++998 (50) 187-07-69";
+const author = "Sargus Company";
 const stats = [234, 56, 234, 160527];
 // ... repeated dozens of times
 ```

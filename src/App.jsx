@@ -35,8 +35,8 @@ function App() {
         <Service />
         <BannerDetails reverse={true} img={Banner1} sectionId={0} />
         <BannerDetails img={Banner2} sectionId={1} />
-        <Banner />
-        <Blogs />
+        {/* <Banner /> */}
+        {/* <Blogs /> */}
         {/* <Swipe /> */}
         <Footer />
       </div>

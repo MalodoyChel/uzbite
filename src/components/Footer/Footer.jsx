@@ -23,14 +23,11 @@ const Footer = () => {
 
   return (
     <div className="rounded-t-3xl bg-gradient-to-r from-violet-950 to-violet-900">
-      <section className="mx-auto max-w-[1200px] text-white">
-        <div className=" grid py-5 md:grid-cols-3">
-          <div className=" px-4 py-8 ">
+      <section id="about" className="mx-auto max-w-[1200px] text-white">
+        <div className=" grid py-5 md:grid-cols-10">
+          <div className=" px-4 py-8 md:col-span-7">
             <h1 className="mb-3 text-justify text-xl font-bold sm:text-left sm:text-3xl">
-              <a href="#home" className="">
-                Uz
-                <span className="inline-block font-bold text-primary">Bite</span>
-              </a>
+              <a href="#home" className="">Sargus <span className="inline-block font-bold text-primary"> Company</span></a>
             </h1>
             <p className="">
               {COMPANY.description}
@@ -46,7 +43,30 @@ const Footer = () => {
             </div>
             {/* Social Handle */}
           </div>
-          <div className="col-span-2 grid grid-cols-2 sm:grid-cols-3 md:pl-10 ">
+          <div className="px-4 py-8 md:col-span-3">
+            <h1 className="mb-3 text-justify text-xl font-bold sm:text-left sm:text-xl">
+              Our projects
+            </h1>
+            <ul className="flex flex-col mb-5">
+              <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
+                <a href="https://skillwork.uz/" className="hover:text-primary">Skillwork.uz</a>
+              </li>
+              <li className="mt-2 flex items-center">
+                <a href="https://t.me/skillwork_uz" target="_blank" rel="noopener noreferrer" className="mr-1.5 duration-200 hover:scale-105">
+                  <FaTelegram className="text-3xl" />
+                </a>
+                <a href="https://www.instagram.com/skillwork.uz?igsh=MTFxNHI2bTQzcHpscQ%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" className="mr-1.5 duration-200 hover:scale-105">
+                  <FaInstagram className="text-3xl" />
+                </a>
+              </li>
+            </ul>
+            <ul className="flex flex-col mb-5">
+              <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
+                <a href="#uzbite" className="hover:text-primary">UzBite</a>
+              </li>
+            </ul>
+          </div>
+          {/* <div className="col-span-2 grid grid-cols-2 sm:grid-cols-3 md:pl-10 ">
             <div className="">
               <div className="px-4 py-8 ">
                 <h1 className="mb-3 text-justify text-xl font-bold sm:text-left sm:text-xl">
@@ -94,23 +114,6 @@ const Footer = () => {
                   ))}
                 </ul>
                 <div className="flex flex-col gap-3">
-                  {/* <h1>Subscribe to our newsletter</h1>
-                  <form onSubmit={handleSubscribe}>
-                    <input
-                      className="w-full rounded-full px-3 py-1 text-black focus:border-sky-500 focus:outline-none focus:ring-2 focus:ring-sky-500"
-                      type="email"
-                      placeholder="Your email"
-                      value={email}
-                      onChange={(e) => setEmail(e.target.value)}
-                      required
-                    />
-                    <button 
-                      type="submit"
-                      className="mt-2 w-full rounded-full bg-primary px-3 py-1 text-white hover:bg-primary/90 transition-colors"
-                    >
-                      Subscribe
-                    </button>
-                  </form> */}
                   <div className="mt-6 flex items-center gap-3">
                     <a href="https://telegram.org" target="_blank" rel="noopener noreferrer" className="duration-200 hover:scale-105">
                       <FaTelegram className="text-3xl" />
@@ -128,7 +131,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div>
           <div className="border-t-2 border-gray-300/50 py-6 text-center">
@@ -141,3 +144,22 @@ const Footer = () => {
 };
 
 export default Footer;
+
+//must be before social media icons
+{/* <h1>Subscribe to our newsletter</h1>
+                  <form onSubmit={handleSubscribe}>
+                    <input
+                      className="w-full rounded-full px-3 py-1 text-black focus:border-sky-500 focus:outline-none focus:ring-2 focus:ring-sky-500"
+                      type="email"
+                      placeholder="Your email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      required
+                    />
+                    <button 
+                      type="submit"
+                      className="mt-2 w-full rounded-full bg-primary px-3 py-1 text-white hover:bg-primary/90 transition-colors"
+                    >
+                      Subscribe
+                    </button>
+                  </form> */}

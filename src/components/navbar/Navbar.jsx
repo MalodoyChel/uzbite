@@ -61,16 +61,11 @@ const Navbar = () => {
     >
       <nav className="container  flex h-[70px] items-center justify-between py-2 ">
         <div className="text-2xl text-white md:text-3xl ">
-          <a href="#home" className="">
-            Uz
-            <span className="inline-block font-bold text-primary dark:text-black">
-              Bite
-            </span>
-          </a>
+          <a href="#home" className="">Sargus <span className="inline-block font-bold text-primary dark:text-black"> Company</span></a>
         </div>
         <div className="hidden md:block">
           <ul className="flex items-center gap-10">
-            <li className="cursor pointer group relative">
+            {/* <li className="cursor pointer group relative">
               <a href="#home" className="flex h-[72px] items-center gap-[2px]">
                 Home{" "}
                 <span>
@@ -147,7 +142,7 @@ const Navbar = () => {
             </li>
             <li className="cursor pointer">
               <a href="#contact">Contact</a>
-            </li>
+            </li> */}
             <div className="flex items-center gap-4">
               <li>
                 <BiPhoneCall className="h-[40px] w-[40px] rounded-md bg-primary p-2 text-2xl text-white hover:bg-primary/90" />
@@ -155,7 +150,7 @@ const Navbar = () => {
               <li>
                 <div>
                   <p className="text-sm">Call us on</p>
-                  <p className="text-lg">+91 123456789</p>
+                  <p className="text-lg">+998 (50) 187-07-69</p>
                 </div>
               </li>
             </div>

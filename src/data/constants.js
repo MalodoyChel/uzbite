@@ -1,10 +1,10 @@
 // Company and content constants
 export const COMPANY = {
-  name: "UzBite",
+  name: "Sargus Company",
   tagline: "Digital Solutions for Modern Business",
   description:
     "We transform your ideas into innovative digital products. From websites to mobile apps and enterprise software, we deliver excellence with cutting-edge technology.",
-  phone: "+998 (90) 123-45-67",
+  phone: "+998 (50) 187-07-69",
   email: "gafarovsardorn1@gmail.com",
   address: "Kichik Xalqa Yo'li 17, Tashkent, Uzbekistan",
 };
@@ -151,6 +151,10 @@ export const FOOTER_LINKS = {
     { label: "About", href: "#about" },
     { label: "Services", href: "#services" },
     { label: "Contact", href: "#contact" },
+  ],
+  projects: [
+    { label: "Skillwork.uz", href: "https://skillwork.uz/" },
+    { label: "UzBite", href: "#uzbite" },
   ],
   creators: [
     { label: "@MalodoyChel", href: "https://t.me/MalodoyChel" },
